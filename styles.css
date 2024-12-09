@@ -1,0 +1,65 @@
+/* Encabezado*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+}
+
+header .left-side a img {
+    width: 150px;
+}
+
+header .right-side {
+    display: flex;
+}
+
+header ,.right-side .nav-link-wrapper a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Secciones*/
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+    display: flex;
+}
+
+.container .left-side {
+    text-align: center;
+    flex: 1;
+}
+
+.container .left-side h1, .container .left-side h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.container .left-side p {
+    font-size: 18px;
+}
+
+.container .left-side a {
+    display: inline-block;
+    background: hwb(6 18% 24% / 0.955);
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.container .right-side {
+    flex: 1;
+    text-align: center;
+}
+
+.container .right-side img {
+    max-width: 90%;
+}
